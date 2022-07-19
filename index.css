@@ -44,6 +44,7 @@ p{
 
 output{
     background-color: rgb(229, 230, 238);
+    margin: 10px;
 }
 p{
     font-size: 150%;
