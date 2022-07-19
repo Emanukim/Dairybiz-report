@@ -1,14 +1,38 @@
-.header{
+#header{
     color: blue;
     background-color: rgb(43, 226, 43);
     text-align: center;
-    padding: 0%;
-    margin: 0%;
+    padding: 0em;
+    margin: 3;
+    
 }
 body{
     background-color: aqua;
     width: 100%;
-    padding: 0%;
-    margin: 0%;
+    padding: 0px;
+    margin: 0px;
 
 }
+h2{
+    color: black;
+    background-color: rgb(149, 70, 70);
+    padding: 1%;
+    margin: 0%;
+    justify-content: baseline;
+}
+.sheds{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+
+    
+}
+input{
+    margin: 3%;
+}
+
+p{
+    font-size: large;
+}
+
+.mi
