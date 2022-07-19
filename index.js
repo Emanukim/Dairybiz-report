@@ -6,5 +6,5 @@ function totalMilk()
     num4 = document.getElementById("shD").value;
     num5 = document.getElementById("shE").value;
     num6 = document.getElementById("shF").value;
-    document.getElementById("reult").innerHTML=num1+num2+num3+num4+num5+num6;
+    document.getElementById("result").innerHTML=num1+num2+num3+num4+num5+num6;
 }
