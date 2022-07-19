@@ -34,10 +34,11 @@ input{
 p{
     font-size: large;
 }
-
+/* 
 .milkrpt{
-    display: flex;
-}
+
+    justify-content:space-around;
+} */
 .outmlk{
     background-color: rgb(171, 178, 192);
 }
@@ -59,4 +60,8 @@ td{
 }
 th{
     font-weight:bold;
+}
+.button{
+    background-color: blue;
+    color: white;
 }

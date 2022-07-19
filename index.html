@@ -15,33 +15,40 @@
         <div>
          <div class="sheds" >     
             <p>ShedA</p>
-                <input type="number" placeholder="Amount in litres" >
+                <input id="shA" type="number" placeholder="Amount in litres" >
            </div>   
            <div class="sheds" >     
             <p>Shed B</p>
-                <input type="number" placeholder="Amount in litres" >
+                <input id="shB" type="number" placeholder="Amount in litres" >
            </div>   
            <div class="sheds" >     
             <p>Shed C</p>
-                <input type="number" placeholder="Amount in litres" >
+                <input id="shB" type="number" placeholder="Amount in litres" >
            </div>   
            <div class="sheds" >     
             <p>Shed D</p>
-                <input type="number" placeholder="Amount in litres" >
+                <input id="shD" type="number" placeholder="Amount in litres" >
            </div>   
            <div class="sheds" >     
             <p>Shed E</p>
-                <input type="number" placeholder="Amount in litres" >
+                <input id="shE" type="number" placeholder="Amount in litres" >
            </div>   
            <div class="sheds" >     
             <p>Shed F</p>
-                <input type="number" placeholder="Amount in litres" >
+                <input id="shF" type="number" placeholder="Amount in litres" >
            </div> 
          </div> 
+         <input type="button"  value="Generate Report" class="button" onClick="totalMilk()">
+
+         <div>
+         <p>TOTAL AMOUNT OF MILK</p>
+         <span id="result"></span>
+         </div>
+         <span>
      </div>
      <div>
         <h1>Total amount of milk in a day</h1>
-        <output></output>
+        <span ></span>
      </div>
 
 
@@ -50,7 +57,7 @@
         <output></output>
      </div>
      <div>
-        <h2> AMOUNT EARNED IN A MONTH</h2>
+        <h2> AMOUNT EARNED IN A MONTH AND IN A YEAR</h2>
        <table>
          <tr>
             <th>MONTH</th>
