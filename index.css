@@ -20,6 +20,8 @@ h2{
     padding: 1%;
     margin: 0%;
     justify-content: baseline;
+    align-items: center;
+    text-align: center;
 }
 .sheds{
     margin: auto;
@@ -51,6 +53,7 @@ output{
 p{
     font-size: 150%;
 }
+
 table{
    border-collapse: collapse;
 }
@@ -68,7 +71,7 @@ th{
     background-color: blue;
     color: white;
     padding:1%;
-    justify-jcontent: center;
+    justify-content: center;
     border-radius: 11px;
 }
 table{
