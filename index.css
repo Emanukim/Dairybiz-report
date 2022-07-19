@@ -7,6 +7,7 @@
     
 }
 body{
+   background-image:assets/Cows.jpg ;
     background-color: aqua;
     width: 100%;
     padding: 0px;
@@ -34,11 +35,7 @@ input{
 p{
     font-size: large;
 }
-/* 
-.milkrpt{
 
-    justify-content:space-around;
-} */
 .outmlk{
     background-color: rgb(171, 178, 192);
 }
