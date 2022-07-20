@@ -2,17 +2,23 @@
     color: blue;
     background-color: rgb(43, 226, 43);
     text-align: center;
-    padding: 0em;
-    margin: 3;
+    padding: 1em;
+    margin: auto;
+    font-size: 150%;
     
 }
 body{
    background-image:assets/Cows.jpg ;
     background-color: aqua;
-    width: 100%;
-    padding: 1px;
-    margin: 90%px;
+    width: 99%;
+    padding:1%;
+    margin: 0;
 
+}
+
+.milkrpt{
+    background-color: rgb(126, 113, 97);
+    
 }
 h2{
     color: black;
@@ -59,8 +65,10 @@ table{
 }
 th,
 td{
-    border: 1px solid black;
+    border: 2px solid black;
+    font-weight: bolder;
     padding: 15px 20px;
+    background-color: blueviolet;
 }
 th{
     font-weight:bold;
